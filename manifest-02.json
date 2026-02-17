@@ -1,0 +1,21 @@
+﻿{
+  "short_name": "VMGS-777",
+  "name": "VMGS HSTAI 777 Luxury",
+  "icons": [
+    {
+      "src": "logo-777-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo-777-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#F9F8F6",
+  "display": "standalone",
+  "theme_color": "#D4AF37",
+  "description": "Hệ thống Landing Page cao cấp chuẩn V MASTER"
+}
