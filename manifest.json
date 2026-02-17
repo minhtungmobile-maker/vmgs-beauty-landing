@@ -1,0 +1,11 @@
+﻿{
+  "name": "VMGS Beauty",
+  "short_name": "VMGS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c71585",
+  "icons": [
+    { "src": "assets/icons/apple-touch-icon.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}

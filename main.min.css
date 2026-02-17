@@ -1,0 +1,19 @@
+﻿// Scroll to order
+document.querySelectorAll('a[href="#order"]').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('order').scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Event tracking
+document.querySelectorAll('.btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (window.dataLayer) {
+      window.dataLayer.push({
+        'event': 'button_click',
+        'button_id': btn.classList.contains('btn-buy') ? 'buy' : 'zalo'
+      });
+    }
+  });
+});
